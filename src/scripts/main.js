@@ -357,6 +357,9 @@ const people = [
 // write your code here
 const dataTable = document.querySelector('.dashboard');
 
+// Header is already created in index.html
+// There is no reason to add header
+
 people.forEach((person) => {
   const newTableRow = document.createElement('tr');
 
